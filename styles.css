@@ -49,6 +49,13 @@ section { padding: 25px 0; border-bottom: 1px solid #e6e6e6; }
 .experience p + ul { margin-top: -1px; }
 .project-note { margin-top: 12px; margin-bottom: 0; }
 section > p:last-child { margin-bottom: 0; }
+.visitor-section { text-align: center; }
+.visitor-section h2 { font-size: 1rem; margin-bottom: 16px; color: #595959; }
+.visitor-map { width: 100%; max-width: 375px; margin: 0 auto; }
+.visitor-map #mapmyvisitors-widget, .visitor-map .mapmyvisitors-map { width: 100% !important; }
+.visitor-map .mapmyvisitors-map { height: auto !important; aspect-ratio: 2.04; background-size: 100% 100%; }
+.visitor-map iframe, .visitor-map canvas, .visitor-map img { max-width: 100%; }
+.visitor-credit { font-size: 0.875rem; margin-top: 10px; margin-bottom: 0; }
 footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; padding-top: 20px; font-size: 0.875rem; }
 .skip-link { position: absolute; left: 12px; top: -100px; padding: 8px 14px; background: white; z-index: 2; }
 .skip-link:focus { top: 8px; }
@@ -89,5 +96,5 @@ footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8p
   section { padding: 16px 0; }
   h2, h3, h4 { break-after: avoid; }
   .publications li { break-inside: avoid; }
-  footer, .skip-link { display: none; }
+  footer, .skip-link, .visitor-section { display: none; }
 }

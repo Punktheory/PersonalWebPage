@@ -24,3 +24,9 @@ The initial content is based on the CV dated 7 September 2026. Manuscripts are e
 The supplied CV's displayed leaderboard address returns 404; the site uses the working link embedded in that PDF: https://punktheory.github.io/Traderbenchmark/leaderboard/.
 
 The downloadable CV is the original file, including its phone number and existing PDF hyperlinks. The homepage email link uses the visible, correct address `tyqin@connect.ust.hk`.
+
+## Visitor map
+
+The footer area displays a responsive MapMyVisitors map using the embed code supplied by the site owner. The widget loads asynchronously over HTTPS and uses its own external service to record visits and approximate visitor locations. Manage statistics in the MapMyVisitors account that generated this code. The public widget identifier is not an account password or API secret.
+
+The map is limited to 375 pixels wide, fits smaller screens, and is hidden when printing. If JavaScript is disabled, a text alternative is shown. Browser tracking protection or an unavailable provider may prevent the map from loading.
