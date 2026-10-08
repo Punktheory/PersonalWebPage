@@ -9,7 +9,7 @@ A simple, responsive academic homepage based on the supplied CV, with a layout i
 - `index.html` contains the biography, research, manuscripts, education, and experience.
 - `styles.css` controls the appearance and mobile layout.
 - `assets/tsz-yui-qin.jpg` is the supplied portrait, preserved without alteration.
-- `assets/QINTszYui_CV_20260907.pdf` is the original supplied CV.
+- `assets/QINTszYui_CV_20260907.pdf` is the reserved CV download path; the PDF is temporarily not published.
 
 No dependencies or build step are required. Open `index.html` in a browser to preview the site.
 
@@ -23,7 +23,7 @@ The initial content is based on the CV dated 7 September 2026. Manuscripts are e
 
 The supplied CV's displayed leaderboard address returns 404; the site uses the working link embedded in that PDF: https://punktheory.github.io/Traderbenchmark/leaderboard/.
 
-The downloadable CV is the original file, including its phone number and existing PDF hyperlinks. The homepage email link uses the visible, correct address `tyqin@connect.ust.hk`.
+The CV link remains in the navigation, but its PDF is temporarily withheld and the URL intentionally returns 404. A local backup is kept outside the website repositories. To re-enable downloads when authorized, restore the desired PDF at the reserved path and remove its `.gitignore` entry before publishing. This withdrawal does not remove copies from existing Git history. The homepage email link uses `tyqin@connect.ust.hk`.
 
 ## Visitor map
 

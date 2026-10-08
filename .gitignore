@@ -3,3 +3,5 @@ Thumbs.db
 node_modules/
 .env
 .env.*
+# CV publication is temporarily disabled.
+/assets/QINTszYui_CV_20260907.pdf
